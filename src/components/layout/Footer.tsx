@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center mb-6">
-              <span className="font-serif text-2xl font-bold text-primary-300">Dharmik</span>
-              <span className="font-serif text-2xl text-white ml-1">Vadaliya</span>
+              <span className="font-serif text-2xl font-bold text-primary-300">Mahadev</span>
+              <span className="font-serif text-2xl text-white ml-1">Enterprises</span>
             </Link>
             <p className="text-surface-300 mb-6">
               Celebrating the rich heritage of Indian craftsmanship through authentic traditional products.

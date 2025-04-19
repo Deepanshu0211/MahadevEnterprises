@@ -80,8 +80,8 @@ const NavBar: React.FC = () => {
             animate="animate"
           >
             <Link to="/" className="flex items-center">
-              <span className="font-serif text-2xl font-bold text-primary-800">Dharmik</span>
-              <span className="font-serif text-2xl text-primary-600 ml-1">Vadaliya</span>
+              <span className="font-serif text-2xl font-bold text-primary-800">Mahadev</span>
+              <span className="font-serif text-2xl text-primary-600 ml-1">Enterprises</span>
             </Link>
           </motion.div>
           
