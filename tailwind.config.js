@@ -1,0 +1,82 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f9f5f1',
+          100: '#f0e5d8',
+          200: '#e5cab1',
+          300: '#d7a980',
+          400: '#c68450',
+          500: '#b7683a',
+          600: '#a04d2e',
+          700: '#833a25',
+          800: '#6c3023',
+          900: '#5a2a23',
+          950: '#321411',
+        },
+        secondary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
+          950: '#082f49',
+        },
+        accent: {
+          50: '#fdf4ff',
+          100: '#fae8ff',
+          200: '#f5d0fe',
+          300: '#f0abfc',
+          400: '#e879f9',
+          500: '#d946ef',
+          600: '#c026d3',
+          700: '#a21caf',
+          800: '#861aae',
+          900: '#701a95',
+          950: '#4a0a6b',
+        },
+        surface: {
+          50: '#fdfcfa',
+          100: '#f7f3ed',
+          200: '#eee4d9',
+          300: '#e1cdb8',
+          400: '#ceb092',
+          500: '#bf9773',
+          600: '#ad8057',
+          700: '#8f6746',
+          800: '#78553c',
+          900: '#654736',
+          950: '#362519',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Poppins', 'sans-serif'],
+        serif: ['EB Garamond', 'serif'],
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-in-out',
+        'slide-up': 'slideUp 0.5s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
